@@ -1,0 +1,1 @@
+{"rsync":{"/vagrant":{"type":"rsync","guestpath":"/vagrant","hostpath":"C:/Users/espacegamers/Desktop/simplon_Devops_Docs/semaine_0/projet-infra-simple","disabled":false,"__vagrantfile":true,"owner":"vagrant","group":"vagrant"}}}

@@ -16,7 +16,7 @@ Vagrant.configure("2") do |config|
     web.vm.network "private_network", ip: "192.168.56.10"
     
     # Synchronisation des dossiers
-    web.vm.synced_folder "./website/startbootstrap-sb-admin-2/", "/var/www/html/", create: true
+    web.vm.synced_folder "./website/", "/var/www/html/", create: true
     
     # Configuration des ressources
     web.vm.provider "virtualbox" do |vb|
